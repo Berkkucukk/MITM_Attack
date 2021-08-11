@@ -5,7 +5,7 @@ import optparse as opt
 
 sub.call("echo 1 > /proc/sys/net/ipv4/ip_forward",shell=True)
 time.sleep(1)
-
+print("Coding By Berk Küçük")
 def user_input():
     parser=opt.OptionParser()
     parser.add_option("-t","--target",dest="target_ip",help="Enter target ip, use --help for more info.")
